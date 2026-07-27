@@ -1,8 +1,13 @@
 aid: hungama
 name: Hungama
-description: 'Hungama is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Hungama (Hungama Digital Media Entertainment Pvt. Ltd.) is an Indian digital
+  entertainment company operating a video-on-demand and audio OTT platform. Hungama.com
+  offers trending web series, popular movies, Hungama Originals, music, podcasts, audiobooks,
+  and audio stories across Hindi, Bollywood, Punjabi, and regional Indian content. The
+  company was surfaced as a portfolio company of Bessemer Venture Partners and added to
+  the API Evangelist network. Hungama publishes a public LLM Access Policy (llms.txt)
+  governing how AI systems may crawl, summarize, and reference its content, but exposes
+  no public developer API or documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/hungama/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,32 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://images1.hungama.com/hmmi/image%20(4).png?updatedAt=1743760090615
 tags:
 - Company
 - Consumer
+- Entertainment
+- Streaming
+- Music
+- OTT
+- Video
+- Podcasts
+- Media
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.hungama.com/
+- type: LLMsTxt
+  url: llms/hungama-llms.txt
+- type: DomainSecurity
+  url: security/hungama-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

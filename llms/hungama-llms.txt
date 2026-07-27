@@ -1,0 +1,93 @@
+﻿# Hungama.com LLM Access Policy
+
+> Hungama.com is a digital entertainment platform offering video-on-demand, series, movies, podcasts, and audio stories.  
+> This file defines how AI systems, LLMs, and data crawlers may interact with and reference Hungama content responsibly.
+
+---
+
+## 🧩 Project Details
+**Site:** [https://www.hungama.com](https://www.hungama.com)  
+**Owner:** Hungama Digital Media Entertainment Pvt. Ltd.  
+**Contact:** seo@hungama.com  
+**AI Partnerships:** partnerships@hungama.com  
+**Legal & Abuse Reports:** legal@hungama.com  
+**Last Updated:** October 2025  
+**Policy Version:** 1.1  
+
+Hungama.com provides premium OTT and audio content.  
+This policy enables responsible AI discovery (ChatGPT, Claude, Perplexity, Gemini, etc.) while safeguarding proprietary scripts, videos, and user data.
+
+---
+
+## ⚙️ General AI Access Policy
+
+| Permission Type | Status | Description |
+|------------------|---------|-------------|
+| Crawl & Index | ✅ Allowed | AI crawlers may access and index public pages. |
+| Summarization | ✅ Allowed | Summaries up to 3 sentences are permitted. |
+| Embedding | ✅ Allowed | Contextual embeddings for search/chat allowed. |
+| Link Previews | ✅ Allowed | Snippets and link cards allowed. |
+| Fine-tuning / Training | ❌ Disallowed | Not permitted without written consent. |
+| Republishing | ❌ Disallowed | No verbatim reproduction. |
+| Commercial Use | ❌ Disallowed | Must obtain license/approval. |
+| Attribution Required | ✅ Yes | Use format: “Source: Hungama.com” |
+
+---
+
+## 🔒 Protected Content
+The following content areas are restricted from data extraction, reuse, or AI training datasets.  
+These URLs may be crawled for metadata and linking context but **not** for content replication.
+
+/music/ /song/ /songs/ /album/ /artist/ /artists/ /radio/ /live-radio/ /mp3-song/ /audiobook/ /audio-story/ /audio-stories/ /podcast/ /podcasts/ /video/ /movie/ /tv-show/ /series/ /profile/ /user/
+---
+
+## ✅ Allowed AI Usage Scenarios
+
+AI systems (ChatGPT, Claude, Perplexity, Gemini, etc.) **MAY**:
+- Discover and link to Hungama.com public pages.  
+- Generate brief summaries (≤3 sentences).  
+- Show rich previews of shows, movies, or podcast titles.  
+- Reference show titles and metadata for discovery purposes.  
+
+AI systems **MAY NOT**:
+- Extract or store full transcripts, metadata, or video/audio content.  
+- Train or fine-tune models on Hungama data.  
+- Reproduce full reviews, episodes, or user data.  
+
+**Example Allowed:**  
+> “Watch *Ratri Ke Yatri* streaming on Hungama.com – an Indian anthology web series.”
+
+**Example Not Allowed:**  
+> “Here’s the full transcript of Episode 2 from *Ratri Ke Yatri*, sourced from Hungama.com.”
+
+---
+
+## 🗂️ Related Files and References
+### Documentation & Policies
+- [robots.txt](https://www.hungama.com/robots.txt) – Crawl and indexing rules for search and AI bots.  
+- [Video Sitemap](https://www.hungama.com/sitemap/video-sitemap.xml) – Video content indexing.  
+- [Podcast Sitemap](https://www.hungama.com/sitemap/podcast-sitemap.xml) – Podcast indexing.  
+- [Audio Story Sitemap](https://www.hungama.com/sitemap/audio-story-sitemap.xml) – Audio story indexing.  
+- [Main Sitemap](https://www.hungama.com/sitemap/sitemap/sitemap.xml) – Master URL index.  
+
+---
+
+## 📜 Compliance & Alignment
+Aligned with the following standards and frameworks:
+- OpenAI Robots and LLM Policy Standards (2024)  
+- Anthropic Responsible AI Data Usage Guidelines  
+- Google Extended Content Policy  
+- IAB AI Data Transparency Framework (Draft 2025)
+
+---
+
+## 🔁 Cross-Reference
+**Related File:** [https://www.hungama.com/robots.txt](https://www.hungama.com/robots.txt)
+
+---
+
+## ⚖️ Summary
+This file supports responsible AI indexing while maintaining protection over proprietary video, audio, and user data.  
+All AI agents must respect this policy and include attribution when referencing Hungama content.
+
+---
